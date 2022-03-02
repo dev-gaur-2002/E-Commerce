@@ -1,0 +1,5 @@
+#f6c453 -- yellowish
+#fefbe9 -- skin
+#f0a04b -- orange 
+#183a1d -- black
+#e1eedd -- light grey

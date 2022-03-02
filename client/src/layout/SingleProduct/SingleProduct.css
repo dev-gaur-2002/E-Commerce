@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --yellowish: #f6c453;
+    --skin : #fefbe9;
+    --orange : #f0a04b;
+    --black :#183a1d;
+    --light_grey : #e1eedd;
+}
+.top{
+    margin-top:2%;
+}
+.container{
+    display: flex;
+    margin-left: 3%;
+}
+.flex-left{
+    width: 50%;
+}
+.flex-left img{
+    width: 75%;
+}
+.flex-right{
+    font-family: 'Roboto';
+    margin-top: 5%;
+   width: 50%;
+}
+.name{
+    font-size: 2.5rem;
+}
+.id{
+    font-size: 0.8rem;
+    color: grey;
+}
+hr{
+    width: 80%;
+    margin-left: 0;
+    background-color: grey;
+    border: none;
+    height: 1px;
+}
+.price{
+    margin-top: 3%;
+}
+.numberOfItems{
+    margin-top: 1.2%;
+}
+.stockStatus{
+    margin-top: 1.2%;
+}
+#stockVal{
+    margin-left: 2%;
+    text-transform: uppercase;
+}
+.description{
+    margin-top: 1.2%;
+}
+.description p{
+    font-size: 0.8rem;
+}
+.submit{
+    margin-top: 5%;
+}
+.submit button {
+    background-color: #f0a04b;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 2% 4%;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+}
+.submit button:hover{
+    transform: scale(1.08);
+    transition: 1s;
+}
+.review-container{
+    display: flex;
+}
